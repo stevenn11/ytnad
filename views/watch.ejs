@@ -91,7 +91,7 @@
         controls
         autoplay
       >
-        <source src="/s/<%= id %>">
+        <source src="/s/<%= id %>?itag=22">
         <% if (captions && captions.length) { %>
         <% captions.forEach(c => { %>
         <track src="/cc/<%= id %>?vssId=<%= c.vssId %>&fmt=vtt" srclang="<%= c.languangeCode %>" label="<%= c.name %>">
